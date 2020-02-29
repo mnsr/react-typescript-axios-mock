@@ -1,6 +1,7 @@
 # react-typescript-axios-mock
 
 This repo demonstrates axios mock in react using typescript.
+[I wrote a Dev.to post](https://dev.to/mnsr/axios-mocking-in-react-using-typescript-4da0) that covers information about this repo.
 
 ### Installation
 
