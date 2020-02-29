@@ -1,0 +1,25 @@
+{
+  "include": ["./src/*.tsx", "src/__tests___/App.test.tsx"],
+  "compilerOptions": {
+    "strict": true,
+    "types": ["webpack", "jest"],
+    "lib": ["dom", "ES2017"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowJs": false,
+    "typeRoots": ["node_modules/@types"],
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "./node_modules",
+    "./public",
+    "./dist",
+    "./.vscode",
+    "./src/__tests/**/*"
+  ]
+}

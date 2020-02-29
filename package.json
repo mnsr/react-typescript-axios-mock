@@ -1,0 +1,47 @@
+{
+  "name": "react-ts-axios-mock-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development --config config/webpack.dev.ts",
+    "test": "jest -c jest.config.js --watch",
+    "build": "webpack --config config/webpack.prod.ts",
+    "build-dev": "webpack  --config config/webpack.dev.ts",
+    "watch": "webpack --watch",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [],
+  "author": "mnsr",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.1",
+    "@types/jest": "^25.1.3",
+    "@types/node": "^13.7.4",
+    "@types/webpack": "^4.41.6",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react-hooks": "^2.4.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
