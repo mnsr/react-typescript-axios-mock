@@ -12,7 +12,7 @@ const prodConfig: webpack.Configuration = merge(commonConfig, {
     splitChunks: {
       cacheGroups: {
         vendor: {
-          test: /[\\/]node_modules[\\/](react|react-dom|react-datepicker)[\\/]/,
+          test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
           name: 'vendor',
           chunks: 'all',
         },
